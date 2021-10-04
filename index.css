@@ -1,0 +1,50 @@
+*{
+    font-family: 'Prata',
+    serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .wrapper{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    /* margin-left: 2rem; */
+    height: 60%;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+}
+.container h3{
+    font-size: 1.5rem;
+    color:#6d5652;
+}
+p{
+    color: rgb(31, 34, 34);
+    font-size: 1.2rem;
+}
+.btn{
+    width: 60%;
+}
+button{
+    padding: .5rem;
+    border-radius: 1rem;
+    border: none;
+}
+button:hover{
+    background: #1a1413;
+    color: white;
+    transition: linear 500ms;
+}
